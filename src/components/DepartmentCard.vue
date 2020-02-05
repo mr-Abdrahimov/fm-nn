@@ -2,33 +2,31 @@
   <div class="department-card" @click="toggleActive" :class="cardClass">
     <div class="dp-m">
     <template v-if="!isActive">
+      <div class="col-people">
+        <span>{{count}}</span>
+        <span class="chel">Чел.</span>
+      </div>
       <div class="department-content col-md-12">
         <div class="d-flex justify-content-between align-items-end">
           <div>
-            <div class="position">
-              Отдел
-            </div>
-            <div class="name">
-              {{ name }}
-            </div>
-          </div>
-          <div class="pl-3" style="margin-bottom: 12px">
-            <department-chart :data="staff"/>
+            <div class="name" v-html="name"></div>
           </div>
         </div>
       </div>
-      <power-chart v-bind="power" />
+      <div>
+        <div class="top-line">
+          <div>Подробнее <img alt="" src="../assets/images/arrow-r.svg"/></div>
+        </div>
+      </div>
     </template>
     <template v-else>
         <div style="border-right: 1px solid #F4F6F8" class="col-md-4 fl padding-none">
           <div class="department-content">
-            <div class="name active">
-              {{ name }}
+            <div class="name active" v-html="name">
             </div>
           </div>
-          <staff-card
-            v-if="supervisor"
-            v-bind="supervisor"
+          <department-info
+                  :rep-text="rep"
             :department-id="id"
             is-department
           />
@@ -54,10 +52,11 @@ import DepartmentChart from './DepartmentChart'
 import DepartmentStaff from './DepartmentStaff'
 import PowerChart from './PowerChart'
 import StaffCard from './StaffCard'
+import DepartmentInfo from './DepartmentInfo'
 
 export default {
   name: 'DepartmentCard',
-  components: { DepartmentChart, DepartmentStaff, PowerChart, StaffCard },
+  components: { DepartmentChart, DepartmentStaff, PowerChart, StaffCard, DepartmentInfo },
   data: () => ({
     isActive: false,
   }),
@@ -71,6 +70,14 @@ export default {
       default: null
     },
     name: {
+      type: String,
+      default: null
+    },
+    count: {
+      type: Number,
+      default: null
+    },
+    rep: {
       type: String,
       default: null
     },
@@ -117,8 +124,40 @@ export default {
     padding-top: 10px;
 
     .department-content {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 20px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+    }
+    .col-people {
+      width: 40px;
+      height: 55px;
+      background: rgba(55, 66, 89, 0.03);
+      border-radius: 0 12px 0 12px;
+      position: absolute;
+      padding: 10px;
+      right: 15px;
+      top: 10px;
+      text-align: center;
+
+      span {
+        font-style: normal;
+        font-weight: bold;
+        display: block;
+      }
+      span:nth-child(1) {
+        font-size: 18px;
+        color: #374259;
+      }
+      .chel {
+        font-size: 9px;
+        color: rgba(55, 66, 89, 0.5);
+      }
+    }
+    .top-line {
+      border-top: 1px solid rgba(55, 66, 89, 0.05);
+      padding: 10px 20px;
+      color: #007BFF;
+      float: left;
     }
 
     .dp-m {
@@ -149,7 +188,7 @@ export default {
       transition: all 0.3s ease;
 
       &.active {
-        font-size: 16px;
+        font-size: 18px;
         transition: all 0.3s ease;
       }
     }

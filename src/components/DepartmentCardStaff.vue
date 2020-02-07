@@ -1,5 +1,5 @@
 <template>
-  <div class="department-card" @click="toggleActive" :class="cardClass">
+  <div class="department-card-staff" @click="toggleActive" :class="cardClass">
     <div class="dp-m">
     <template v-if="!isActive">
       <div class="col-people">
@@ -57,7 +57,7 @@ import StaffCard from './StaffCard'
 import DepartmentInfo from './DepartmentInfo'
 
 export default {
-  name: 'DepartmentCard',
+  name: 'DepartmentCardStaff',
   components: { DepartmentChart, DepartmentStaff, PowerChart, StaffCard, DepartmentInfo },
   data: () => ({
     isActive: false,
@@ -109,7 +109,7 @@ export default {
     toggleActive() {
       this.isActive = !this.isActive;
       if(this.isActive) {
-        this.scrollUp('.department-card:nth-child('+(this.keyId+1)+')')
+        this.scrollUp('.department-card-staff:nth-child('+(this.keyId+1)+')')
       }
     },
     scrollUp(position) {
@@ -120,7 +120,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .department-card {
+  .department-card-staff {
+    overflow: hidden;
     transition: all 0.3s ease;
     padding-top: 10px;
 
@@ -174,8 +175,8 @@ export default {
       background-image: url("../assets/images/arrow-r.svg");
       width: 13px;
       height: 8px;
-      margin-top: 7px;
-      margin-left: 80px;
+      margin-top: 10px;
+      margin-left: 87px;
     }
     .otherText:hover>.txt:before {
       transition: all 0.3s ease;

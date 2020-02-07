@@ -8,26 +8,22 @@
           </router-link>
         </div>
         <div>
-          <img src="https://units.bz/img/logo.png" width="90px" />
         </div>
       </div>
     </div>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-md-4">
-          <staff-card
-            v-if="staff"
-            v-bind="staff"
-            :with-report-link="false"
-          />
-        </div>
-        <div class="col-md-8">
+          <div class="col-md-4">
+            <staff-card
+                    v-if="staff"
+                    v-bind="staff"
+                    :with-report-link="false"
+            />
+          </div>
+        <div class="col-md-8" style=" min-height: 1000px;">
           <component
             v-bind:is="report"
-            :staff="staff"
           />
-
-          <div v-if="staff.comment" v-html="staff.comment" class="result"/>
 
         </div>
       </div>
@@ -39,6 +35,7 @@
 
 <script>
 /* eslint-disable */
+import DepartmentStaff from '../components/DepartmentStaff'
 import StaffCard from '../components/StaffCard'
 import DATA from '../data';
 import Report0 from '../reports/0';
@@ -68,6 +65,7 @@ import Report23 from '../reports/23';
 import Report24 from '../reports/24';
 import Report25 from '../reports/25';
 import Report26 from '../reports/26';
+import axios from 'axios'
 
 const REPORTS = [
   Report0,
@@ -101,7 +99,13 @@ const REPORTS = [
 
 export default {
   name: 'ReportView',
-  components: { StaffCard },
+  components: { StaffCard, DepartmentStaff },
+  data: () => ({
+    staff: {
+      formatId: 100,
+      name: ''
+    },
+  }),
   props: {
     departmentId: {
       type: [String, Number],
@@ -111,10 +115,14 @@ export default {
       type: [String, Number],
       default: null,
     },
+    userTestId: {
+      type: [Number],
+      default: null,
+    },
     headId: {
       type: [String, Number],
       default: null,
-    }
+    },
   },
   created: function () {
     this.scrollUp()
@@ -126,26 +134,19 @@ export default {
         }
       }
       this.$scrollTo(this, 300, options);
-    }
+    },
+    async loadParts () {
+      return await axios.get('https://formatmind.com/export/?a=nn', {params: {userId: this.staffId}}).then((response) => {
+        this.staff = response.data;
+      });
+    },
   },
   computed: {
-    staff() {
-      if (!this.headId) {
-        const department = DATA.departments.find(_ => +_.id === +this.departmentId);
-        return department.staff.find(_ => +_.id === +this.staffId);
-      } else {
-        let staff = DATA.management.find(_ => +_.id === +this.headId);
-
-        if (!staff) {
-          staff = DATA.head.find(_ => +_.id === +this.headId);
-        }
-
-        return staff;
-      }
-    },
     report() {
+      this.loadParts ()
+      console.log(this.staff.formatId)
       return REPORTS[this.staff.formatId];
-    }
+    },
   }
 }
 </script>

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b483d091-8edd-434d-904f-7f0d8723f607" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Welcome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XTErFgtHW1uONwai3Iyz8Yo3aU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,11 +43,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581061880930</updated>
-      <workItem from="1581061884285" duration="1645000" />
+      <workItem from="1581061884285" duration="1870000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="993" y="415" key="MultipleFileMergeDialog" timestamp="1581063519910">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="993" y="415" key="MultipleFileMergeDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581063519910" />
+    <state x="1069" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581064667895">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1069" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581064667895" />
+    <state x="945" y="326" key="run.anything.popup" timestamp="1581064703368">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="945" y="326" key="run.anything.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1581064703368" />
   </component>
 </project>

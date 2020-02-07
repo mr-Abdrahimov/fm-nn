@@ -1,25 +1,18 @@
 <template>
-  <div class="department-card" @click="toggleActive" :class="cardClass">
+  <div class="department-card-staff" @click="toggleActive" :class="cardClass">
     <div class="dp-m">
     <template v-if="!isActive">
+      <div class="col-people">
+        <span>{{count}}</span>
+        <span class="chel">Чел.</span>
+      </div>
       <div class="department-content col-md-12">
         <div class="d-flex justify-content-between align-items-end">
           <div>
-            <div class="position">
-              Отдел
-            </div>
-            <div class="name">
-              {{ name }}
-            </div>
-          </div>
-          <div class="pl-3" style="margin-bottom: 12px">
-            <department-chart :data="staff"/>
+            <div class="name" v-html="name"></div>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <power-chart v-bind="power" />
-=======
       <div>
         <div class="top-line">
           <div class="otherText">
@@ -27,18 +20,15 @@
           </div>
         </div>
       </div>
->>>>>>> 6a4fcc82f5945ec44fd623b210350e270836e782
     </template>
     <template v-else>
         <div style="border-right: 1px solid #F4F6F8" class="col-md-4 fl padding-none">
           <div class="department-content">
-            <div class="name active">
-              {{ name }}
+            <div class="name active" v-html="name">
             </div>
           </div>
-          <staff-card
-            v-if="supervisor"
-            v-bind="supervisor"
+          <department-info
+                  :rep-text="rep"
             :department-id="id"
             is-department
           />
@@ -64,10 +54,11 @@ import DepartmentChart from './DepartmentChart'
 import DepartmentStaff from './DepartmentStaff'
 import PowerChart from './PowerChart'
 import StaffCard from './StaffCard'
+import DepartmentInfo from './DepartmentInfo'
 
 export default {
-  name: 'DepartmentCard',
-  components: { DepartmentChart, DepartmentStaff, PowerChart, StaffCard },
+  name: 'DepartmentCardStaff',
+  components: { DepartmentChart, DepartmentStaff, PowerChart, StaffCard, DepartmentInfo },
   data: () => ({
     isActive: false,
   }),
@@ -81,6 +72,14 @@ export default {
       default: null
     },
     name: {
+      type: String,
+      default: null
+    },
+    count: {
+      type: Number,
+      default: null
+    },
+    rep: {
       type: String,
       default: null
     },
@@ -110,7 +109,7 @@ export default {
     toggleActive() {
       this.isActive = !this.isActive;
       if(this.isActive) {
-        this.scrollUp('.department-card:nth-child('+(this.keyId+1)+')')
+        this.scrollUp('.department-card-staff:nth-child('+(this.keyId+1)+')')
       }
     },
     scrollUp(position) {
@@ -121,15 +120,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .department-card {
+  .department-card-staff {
+    overflow: hidden;
     transition: all 0.3s ease;
     padding-top: 10px;
 
     .department-content {
-<<<<<<< HEAD
-      padding-left: 15px;
-      padding-right: 15px;
-=======
       padding-left: 20px;
       padding-right: 40px;
       padding-bottom: 10px;
@@ -179,13 +175,12 @@ export default {
       background-image: url("../assets/images/arrow-r.svg");
       width: 13px;
       height: 8px;
-      margin-top: 7px;
-      margin-left: 80px;
+      margin-top: 10px;
+      margin-left: 87px;
     }
     .otherText:hover>.txt:before {
       transition: all 0.3s ease;
       background-image: url("../assets/images/arrow-r-white.svg");
->>>>>>> 6a4fcc82f5945ec44fd623b210350e270836e782
     }
 
     .dp-m {
@@ -216,7 +211,7 @@ export default {
       transition: all 0.3s ease;
 
       &.active {
-        font-size: 16px;
+        font-size: 18px;
         transition: all 0.3s ease;
       }
     }

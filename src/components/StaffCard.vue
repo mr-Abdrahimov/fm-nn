@@ -15,28 +15,6 @@
               {{ name }}
             </div>
           </div>
-          <div>
-            <img src="../assets/images/up-trend.svg"/>
-          </div>
-        </div>
-      </div>
-      <power-chart
-        v-bind="power"
-        class="mt-3"
-      />
-
-      <div class="content">
-        <div class="d-flex mt-3">
-          <div class="format flex-fill">
-            {{ format }}
-          </div>
-
-          <div class="guidance" :style="stylePower" content="Наведенность" v-tippy>
-            {{ power.nkf }}%
-          </div>
-        </div>
-        <div v-if="withReportLink" class="mt-2">
-          <span @click="toReport" class="buttonReport">Отчет</span>
         </div>
       </div>
     </div>
@@ -181,8 +159,6 @@ export default {
       padding-left: 15px;
       padding-right: 15px;
       padding-top: 10px;
-
-      border-bottom: 2px solid #F4F6F8;
 
       .position {
         color: #BABFCD;

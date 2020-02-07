@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b483d091-8edd-434d-904f-7f0d8723f607" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/9.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src — копия/reports/9.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/9 2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/9 2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/9.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/9.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Welcome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +47,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581061880930</updated>
-      <workItem from="1581061884285" duration="1870000" />
+      <workItem from="1581061884285" duration="3114000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1581064733454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581064733454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="697" y="153" key="CommitChangelistDialog2" timestamp="1581064733274">
@@ -63,6 +79,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1069" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1337@0.23.2560.1337" timestamp="1581064667895" />
+    <state x="592" y="312" width="1365" height="708" key="find.popup" timestamp="1581066176468">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="592" y="312" width="1365" height="708" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1581066176468" />
     <state x="945" y="326" key="run.anything.popup" timestamp="1581064703368">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

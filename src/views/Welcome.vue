@@ -194,7 +194,7 @@
                       <div class="partMenu">
                           <div class="menuElem" :class="{menuElemActive : !expertList}" @click="onExpertList(0)">ОБЩИЙ ОТЧЕТ</div>
                           <div class="menuElem" :class="{menuElemActive : expertList}" @click="onExpertList(1)">ЭКСПЕРТНАЯ ВЫБОРКА РЕСУРСНЫХ УПРАВЛЕНЦЕВ</div>
-                          <a class="menuElem" href="https://forms.gle/HQd5md8VpD9RqWtP8" target="_blank">ЧТО ВЫ БЫ ХОТЕЛИ ДОБАВИТЬ?</a>
+                          <a class="menuElem" href="https://forms.gle/HQd5md8VpD9RqWtP8" target="_blank">ЧТО БЫ ВЫ ХОТЕЛИ ДОБАВИТЬ?</a>
                       </div>
                   </div>
               </div>

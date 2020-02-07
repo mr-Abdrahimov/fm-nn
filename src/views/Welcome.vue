@@ -12,104 +12,40 @@
     </div>
     <div class="container mt-5">
       <div class="row">
-        <h2 class="col-12 mt-3 s36">
-          Проект оценки и развития HR резерва правительства<br />
-          Нижегородской области по методике Формат Мышления
+        <h2 class="col-10 mt-3 s48">
+          Отчет по Юнитам
         </h2>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <h4 class="mt-5 mb-3">1. Блок <span style="font-weight: normal">“Поставленные задачи и представленные решения”</span></h4>
-          <div class="text-subline"></div>
-        </div>
-        <div class="col-md-6 mt-4-5">
-          <h4 class="mb-3">Поставлены задачи</h4>
-          <p>
-            <b>1.</b> Определение стиля руководства;<br />
-            <b>2.</b> Внедрение инновационных подходов в оценке персонала;<br />
-            <b>3.</b> Определение эффективности работы персонала.
-          </p>
-        </div>
-        <div class="col-md-6 mt-4-5">
-          <h4 class="mb-3">Представлены следующие решения</h4>
-          <p>
-            <b>1.</b> Выявить формат мышления каждого человека персонально;<br />
-            <b>2.</b> Понять, в какой сфере каждый человек будет эффективен;<br />
-            <b>3.</b>  Выявить потенциально неэффективных для стоящих задач лиц.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h4 class="mt-4 mb-3">2. Блок <span style="font-weight: normal">“Вводная информация о теории”</span></h4>
-          <div class="text-subline"></div>
-        </div>
-        <div class="col-md-12 mt-4">
-          <h4 class="mb-4">Формат Мышления (ФМ)</h4>
-          <p>
-            Характеристики работы человеческого мозга с информацией: с какой скоростью он принимает решения, какой комфортный объем потребления информации, какая структура ее обработки. Определив эти данные с помощью тестирования и специально созданного математического алгоритма мы получаем исчерпывающую информацию об управленческих качествах человека, его явной и скрытой мотивации, а также о потенциале развития и системных рисках в деятельности.
-          </p>
-          <div class="text-subline-2 mt-4"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h4 class="mt-5">ФМ по объему потребления информации</h4>
-        </div>
-
-        <div class="col-md-4">
+        <div class="col-md-6 mt-5">
+          <h4 class="mb-4-5">Форматы мышления по объему информации:</h4>
           <div class="block-format">
             <div class="block-title">
               <img src="../assets/images/i-format.svg"/> Я-Формат
             </div>
-            <div class="text">
-              Комфортное потребление информации небольшими блоками.<br />
-              Люди этого формата хорошо понимают, что происходит <b>здесь и сейчас</b>, отлично планируют на ближайшее будущее <b>(на срок до одного года)</b>.
-              Основная мотивация и ориентация Я-форматных личностей - личная реализация и ресурсность. Это именно тот формат, который создает нашу реальность в данный момент.
-              <div class="text-subline-2 mt-3 mb-3"></div>
-              <span>Зона “Я” формата на косинусоиде</span>
-            </div>
+            <div class="text">Люди этого формата хорошо понимают, что происходит <b>здесь и сейчас</b>, отлично планируют на ближайшее будущее <b>(на срок до одного года)</b>. Основная мотивация и ориентация Я-форматных личностей - личная реализация и ресурсность. Это именно тот формат, который создает нашу реальность в данный момент.</div>
           </div>
-        </div>
-        <div class="col-md-4">
           <div class="block-format">
             <div class="block-title">
               <img src="../assets/images/we-format.svg"/> Мы-Формат
             </div>
             <div class="text">
-              Люди этого формата идеальны для участия в социальных проектах, в событиях, в которых задействована <b>система, коммуникация, команда</b>.
-              Им интересны “многослойные” проекты, в которых видна перспектива, несколько векторов развития. Люди этого формата могут эффективно планировать <b>на срок до 2-3 лет</b>.
-              <div class="text-subline-2 mt-3 mb-3"></div>
-              <span>Зона “Мы” формата на косинусоиде</span>
+              Люди этого формата идеальны для участия в социальных проектах, в событиях, в которых задействована <b>система, коммуникация, команда</b>. Им интересны “многослойные” проекты, в которых видна перспектива, несколько векторов развития. Люди этого формата могут эффективно планировать <b>на срок до 2-3 лет</b>.
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
           <div class="block-format">
             <div class="block-title">
               <img src="../assets/images/world-format.svg"/> Мир-Формат
             </div>
             <div class="text">
-              Потребление информации идет большими блоками. Люди этого формата  увлекаются мыслями о глобальном, о мироустройстве,
+              Люди этого формата  увлекаются мыслями <b>о глобальном</b>, о мироустройстве,
               о создании некого единого информационного поля, которое  работает по определенным принципам и законам.
-              Люди этого формата подходят <b>к своей деятельности с большим размахом</b>. Они могут эффективно осуществлять планирование <b>на срок от пяти лет и более.
-              Тяжело дробят проект на небольшие задачи.</b>
-              <div class="text-subline-2 mt-3 mb-3"></div>
-              <span>Зона “Мир” формата на косинусоиде</span>
+              Люди этого формата подходят <b>к своей деятельности с большим размахом</b>. Они могут эффективно осуществлять планирование <b>на срок от пяти лет и более</b>.
             </div>
           </div>
         </div>
-      </div>
-        <div class="row">
-          <div class="col-md-12 mt-5">
-            <img style="width: 100%" alt="" src="../assets/images/graph.svg"/>
-          </div>
-        </div>
-      <div class="row">
-        <div class="col-md-12 mt-5">
-          <h4 class="">ФМ по структуре обработки информации:</h4>
-        </div>
-        <div class="col-md-6 mt-1">
+        <div class="col-md-6 mt-5">
+          <h4 class="mb-4-5">Форматы мышления по структуре информации:</h4>
           <div class="block-format">
             <div class="block-title green">
               <img src="../assets/images/block-sys.svg"/> Системщик
@@ -118,8 +54,6 @@
               Человек, который все приводит к единой структуре и придерживается выбранного сценария.
             </div>
           </div>
-        </div>
-        <div class="col-md-6 mt-1">
           <div class="block-format">
             <div class="block-title purple">
               <img src="../assets/images/block-met.svg"/> Метафорщик
@@ -128,8 +62,14 @@
               Человек, который способен интуитивно усовершенствовать систему новыми идеями, улучшить.
             </div>
           </div>
-        </div>
-        <div class="col-md-6 mt-1">
+          <div class="block-format">
+            <div class="block-title red">
+              <img src="../assets/images/block-pre.svg"/> Презентатор
+            </div>
+            <div class="text">
+              Человек, который представляет, демонстрирует, завлекает людей своей деятельностью. (Активно, быстро, импульсивно).
+            </div>
+          </div>
           <div class="block-format">
             <div class="block-title blue">
               <img src="../assets/images/block-ana.svg"/> Аналитик
@@ -139,68 +79,88 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mt-1">
-          <div class="block-format">
-            <div class="block-title red">
-              <img src="../assets/images/block-pre.svg"/> Презентатор
-            </div>
-            <div class="text">
-              Человек, который представляет, демонстрирует, завлекает людей своей деятельностью. (Активно, быстро, импульсивно).
-            </div>
-          </div>
-        </div>
       </div>
-
       <div class="row">
-        <div class="col-md-12">
-          <h4 class="mt-5 mb-3">3. Блок <span style="font-weight: normal">“Отчет”</span></h4>
-          <div class="text-subline"></div>
-        </div>
-        <div class="col-md-6 mt-4">
-          Мы выделяем 27 форматов, которые вытекают из вышестоящих данных о 4 основных ФМ по структуре обработки и объему потребления информации
-        </div>
-        <div class="col-md-6 mt-4">
-          Ниже вы можете посмотреть числовую статистику и подробное описание каждого человека, который проходил тестирование по этому проекту
-        </div>
-      </div>
-    </div>
-    <div class="users-list mt-5">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 mb-4">
-            <div class="sortMenu">
-              <div class="sortBlock sortActive">
-                ВСЕ
-              </div>
-              <div class="sortBlock ">
-                СТАБИЛЬНОСТЬ В УПРАВЛЕНИИ
-              </div>
-              <div class="sortBlock">
-                КОНТРОЛЬ В УПРАВЛЕНИИ
-              </div>
-              <div class="sortBlock">
-                АКТИВНОСТЬ В УПРАВЛЕНИИ
-              </div>
-            </div>
-            <div class="menuLine"></div>
+        <div class="col-md-6 mt-5">
+          <div>
+            <h4>Формат Мышления</h4>
+            <p>Это показатель, характеризующий каким образом человек работает с информацией, в какой скорости, какая структура мышления ему свойственна.</p>
+          </div>
+          <div class="">
+            <h4>Наведённость</h4>
+            <p>Это процент задач,  не свойственных мышлению человека. Высокая наведённость (более 60 %)  приводит к эмоциональному выгоранию, а также к снижению эффективности в работе. Показатель наведённости ниже 60 % говорит о том, что человек в целом находится в своем комфортном поле деятельности.</p>
           </div>
         </div>
-        <div v-if="departments.length">
-          <transition-group name="list" tag="div" class="row">
-            <department-card
-                    v-for="(item, i) in departments"
-                    v-bind="item"
-                    :key="i"
-                    :key-id="i"
-                    :count="item.staff.length"
-                    class="mb-3"
-            />
-          </transition-group>
+        <div class="col-md-6 mt-5">
+          <div class="">
+            <h4>Текущая эффективность (ЭФФ)</h4>
+            <p>Это процент соответствия Формата должности и Формата Мышления человека. Данный показатель также учитывает загруженность другими задачами.</p>
+          </div>
+          <div class="">
+            <h4>Потенциальная эффективность (ПЭФФ) </h4>
+            <p>Это процент роста эффективности при условии снижения нагрузки другими задачами (не своими) до 0 %. </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div style="background: #000; padding: 15px;">
+    <div class="container">
+      <div class="row mb-5 mt-3">
+        <staff-card
+          v-for="(item, i) in head"
+          v-bind="item"
+          ref="heads"
+          :key="i"
+          :index="i"
+          :active-item="activeHeadId"
+          class="my-2 col-md-4"
+          @click="onClickHead"
+        />
+      </div>
+    </div>
+
+    <div v-if="management.length" style="position: relative">
+
+      <div class="assistants" :style="assistantsStyles">
+        <div class="container" style="overflow-x: scroll;" >
+          <VuePerfectScrollbar v-once :settings="{maxScrollbarLength: 150, handlers: ['click-rail', 'drag-thumb', 'keyboard', 'wheel', 'touch'], wheelSpeed: 0}" @ps-scroll-y="scrollHandle" v-dragscroll>
+          <div ref="wrap" class="row">
+            <transition-group name="list" tag="div" class="d-flex">
+              <staff-card
+                v-for="(item, i) in management"
+                v-bind="item"
+                ref="cards"
+                :key="i"
+                :index="i"
+                :active-item="activeManagerId"
+                class="assistants-block mt-4 mb-4"
+                @click="onClickManager"
+              />
+            </transition-group>
+          </div>
+          </VuePerfectScrollbar>
+        </div>
+      </div>
+    </div>
+
+    <div v-if="activeManagerId" class="container mt-5">
+      <div v-if="departments.length">
+        <transition-group name="list" tag="div" class="row">
+          <department-card
+            v-for="(item, i) in departments"
+            v-bind="item"
+            :key="i"
+            :key-id="i"
+            class="mb-3"
+          />
+        </transition-group>
+      </div>
+      <div v-else-if="activeManagerId">
+        Нет отделов
+      </div>
+    </div>
+
+    <div style="background: #000; padding: 15px; margin-top: 50px">
     </div>
   </div>
 </template>
@@ -212,7 +172,6 @@ import DepartmentCard from '../components/DepartmentCard'
 import DATA from '../data';
 import ClickOutside from 'vue-click-outside'
 import VuePerfectScrollbar from 'vue-perfect-scrollbar'
-import axios from 'axios'
 
 export default {
   name: 'WelcomeView',
@@ -221,33 +180,55 @@ export default {
     ClickOutside
   },
   data: () => ({
+    activeHeadId: DATA.head[0].id,
+    activeManagerId: DATA.management[0].id,
     isActive: false,
     bottomArrowPosition: 325,
     upArrowPosition: 325,
-    departments: []
   }),
   computed: {
-  },
-  async created() {
-    await this.loadParts ();
-    this.departments = await this.sortedArray();
+    head () {
+      return DATA.head;
+    },
+    management () {
+      return DATA.management;
+    },
+    departments() {
+      return DATA.departments;
+    },
+    assistantsStyles() {
+      return {
+        height: `${this.activeHeadId ? '' : 0}px`,
+        opacity: this.activeHeadId ? 100 : 0
+      }
+    },
   },
   methods: {
-    loadParts () {
-      return axios.get('https://formatmind.com/export/?a=nn').then((response) => {
-        this.departments = response.data.departments;
-      });
-    },
-    sortedArray: function() {
-      function compare(a, b) {
-        if (a.count < b.count)
-          return 1;
-        if (a.count > b.count)
-          return -1;
-        return 0;
+    onClickHead({ index, id}) {
+      this.activeHeadId = id;
+
+      if (this.management.length) {
+        this.activeManagerId = this.management[0].id;
+
+        if (this.$refs.wrap) {
+          const head = this.$refs.heads[index]
+          const offset = this.$refs.wrap.getBoundingClientRect().left;
+          this.activeManagerId = this.management[0].id;
+          this.upArrowPosition = head.$el.offsetLeft - 20 + offset;
+        }
+      } else {
+        this.activeManagerId = null;
       }
 
-      return this.departments.sort(compare);
+    },
+    onClickManager({ index, id }) {
+      this.activeManagerId = id;
+      const card = this.$refs.cards[index]
+      const offset = this.$refs.wrap.getBoundingClientRect().left;
+      this.bottomArrowPosition = card.$el.offsetLeft - 20 + offset;
+    },
+    scrollHandle(evt) {
+      console.log(evt)
     },
   }
 }
@@ -260,67 +241,10 @@ export default {
     color: #374259;
   }
 
-  .sortMenu {
-  }
-  .menuLine {
-    border-bottom: 2px solid rgba(217, 225, 233, 0.2);
-    width: 100%;
-    float: left;
-    margin-top: -2px;
-  }
-  .sortBlock {
-    padding: 15px;
-    float: left;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    cursor: pointer;
-    border-bottom: 2px solid rgba(0, 123, 255, 0);
-  }
-  .sortBlock:hover {
-    border-bottom: 2px solid rgba(0, 123, 255, 0.2);
-    transition: all 0.5s ease;
-  }
-  .sortActive {
-    transition: all 0.5s ease;
-    border-bottom: 2px solid #007BFF!important;
-  }
   .assistants-block {
     min-width: 320px;
     margin: 2ex;
   }
-
-  .users-list {
-    background: rgba(55, 66, 89, 0.03);
-    padding: 50px 0;
-  }
-  .text-subline {
-    position: relative;
-    height: 2px;
-    padding: 0;
-    background: rgba(217, 225, 233, 0.2);;
-    border: none;
-  }
-  .text-subline-2 {
-    position: relative;
-    height: 2px;
-    padding: 0;
-    background: rgba(217, 225, 233, 0.2);;
-    border: none;
-  }
-  .text span {
-    font-weight: bold;
-  }
-  .text-subline:before {
-     content: '';
-     position: absolute;
-     top: 0;
-     left: 0;
-     height: 2px;
-     width: 90px;
-     background: #007BFF;
-   }
 
   .assistants {
     background: #F4F6F8;
@@ -413,17 +337,8 @@ export default {
     font-size: 3rem;
     font-weight: 100;
   }
-  .s36 {
-    font-size: 36px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-  }
   .mb-4-5 {
     margin-bottom: 2.2rem!important;
-  }
-  .mt-4-5 {
-    margin-top: 2.2rem!important;
   }
 
 

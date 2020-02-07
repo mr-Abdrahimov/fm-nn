@@ -1,5 +1,5 @@
 <template>
-  <div class="power-chart">
+  <div v-if="now && future" class="power-chart">
     <div class="label d-flex justify-content-between align-items-center mb-2">
       <div class="pl-2">0%</div>
       <div></div>

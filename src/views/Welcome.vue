@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="mt-5 mb-3">1. Блок <span style="font-weight: normal">“Поставленные задачи и представленные решения”</span></h4>
+          <h4 class="mt-5 mb-3">1. Блок <span style="font-weight: normal">"Поставленные задачи и представленные решения"</span></h4>
           <div class="text-subline"></div>
         </div>
           <div class="col-md-6 mt-4-5 ">
@@ -50,7 +50,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="mt-2 mb-3">2. Блок <span style="font-weight: normal">“Вводная информация о теории”</span></h4>
+          <h4 class="mt-2 mb-3">2. Блок <span style="font-weight: normal">"Вводная информация о теории"</span></h4>
           <div class="text-subline"></div>
         </div>
         <div class="col-md-12 mt-4">
@@ -78,7 +78,7 @@
             </div>
               <div class="text-subline-2 mt-3"></div>
               <div class="format-disc-footer">
-              <span>Зона “Я” формата на косинусоиде <img src="../assets/images/arrow-down-black.svg" /></span>
+              <span>Зона "Я" формата на косинусоиде <img src="../assets/images/arrow-down-black.svg" /></span>
               </div>
           </div>
         </div>
@@ -89,11 +89,11 @@
             </div>
             <div class="text">
               Люди этого формата идеальны для участия в социальных проектах, в событиях, в которых задействована <b>система, коммуникация, команда</b>.
-              Им интересны “многослойные” проекты, в которых видна перспектива, несколько векторов развития. Люди этого формата могут эффективно планировать <b>на срок до 2-3 лет</b>.
+              Им интересны "многослойные" проекты, в которых видна перспектива, несколько векторов развития. Люди этого формата могут эффективно планировать <b>на срок до 2-3 лет</b>.
             </div>
               <div class="text-subline-2 mt-3"></div>
               <div class="format-disc-footer format-disc-footer-active">
-                  <span>Зона “Мы” формата на косинусоиде <img src="../assets/images/arrow-down-white.svg" /></span>
+                  <span>Зона "Мы" формата на косинусоиде <img src="../assets/images/arrow-down-white.svg" /></span>
               </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
             </div>
               <div class="text-subline-2 mt-3"></div>
               <div class="format-disc-footer" style="text-align: center; padding: 15px; font-weight: bold;">
-                  <span>Зона “Мы” формата на косинусоиде <img src="../assets/images/arrow-down-black.svg" /></span>
+                  <span>Зона "Мы" формата на косинусоиде <img src="../assets/images/arrow-down-black.svg" /></span>
               </div>
           </div>
         </div>
@@ -167,7 +167,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <h4 class="mt-5 mb-3">3. Блок <span style="font-weight: normal">“Отчет”</span></h4>
+          <h4 class="mt-5 mb-3">3. Блок <span style="font-weight: normal">"Отчет"</span></h4>
           <div class="text-subline"></div>
         </div>
         <div class="col-md-6 mt-4">

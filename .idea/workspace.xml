@@ -3,11 +3,126 @@
   <component name="ChangeListManager">
     <list default="true" id="b483d091-8edd-434d-904f-7f0d8723f607" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src — копия/reports/9.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src — копия/reports/9.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reports/9 2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/9 2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reports/9.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/9.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/arrow-down-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/arrow-down-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/arrow-r-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/arrow-r.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/block-ana.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/block-met.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/block-pre.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/block-sys.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/ellipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/fm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/graph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/i-format.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/up-trend.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/we-format.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/assets/images/world-format.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/DepartmentCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/DepartmentCardStaff.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/DepartmentChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/DepartmentInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/DepartmentStaff.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/PowerChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/components/StaffCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/0.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/10.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/100.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/11.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/12.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/13.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/14.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/15.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/16.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/17.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/18.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/19.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/20.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/21.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/22.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/23.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/24.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/25.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/26.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/4.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/7.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/8.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/reports/9.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/views/Report.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src — копия/views/Welcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_ 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/app 2.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow-down-black 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow-down-white 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow-r-white 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/block-ana 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/block-met 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/block-pre 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/block-sys 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ellipse 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/fm 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/graph 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/i-format 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/up-trend 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/we-format 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/world-format 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DepartmentCardStaff 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DepartmentChart 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DepartmentStaff 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StaffCard 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/0 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/1 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/10 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/100 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/11 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/12 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/13 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/14 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/15 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/16 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/17 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/18 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/19 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/2 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/20 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/21 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/22 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/23 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/24 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/25 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/25.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/25.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/26 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/3 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/4 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/5 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/6 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/7 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/8 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/9 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Report 2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Welcome 2.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Welcome.vue" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +146,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581061880930</updated>
       <workItem from="1581061884285" duration="3114000" />
+      <workItem from="1581075447647" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1581064733454</created>
@@ -61,6 +190,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
